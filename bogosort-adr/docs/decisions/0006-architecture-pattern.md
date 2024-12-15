@@ -1,6 +1,6 @@
 # Architecture Pattern
 
-* Status: proposed
+* Status: Proposed
 * Deciders: Casey Cheung, Habib Ullah, Rami Kotaiche
 * Date: 2024-11-14
 
@@ -24,13 +24,13 @@ While the three-tier architecture is a strong contender for its reliability and 
 ### Positive Consequences
 
 * Clear separation of concerns: Models handle data, Views manage the UI, and Controllers process user input.
-- Enhances maintainability and testability, as individual components can be modified or tested independently.
-- Scales well for web-based systems and multi-channel applications.
+* Enhances maintainability and testability, as individual components can be modified or tested independently.
+* Scales well for web-based systems and multi-channel applications.
 
 ### Negative Consequences
 
 * Requires disciplined implementation to avoid tightly coupling components.
-- Complexity can increase with larger projects or highly interactive UIs.
+* Complexity can increase with larger projects or highly interactive UIs.
 
 ## Pros and Cons of the Options
 
@@ -42,10 +42,10 @@ Model: Manages the data and business logic.
 View: Handles the user interface and displays data.
 Controller: Manages user input and updates Models and Views accordingly.
 
-* Good, because Ideal for applications with dynamic user interfaces.
+* Good, because - Ideal for applications with dynamic user interfaces.
 - Supports asynchronous data updates, suitable for real-time features.
 - Clear modularity simplifies debugging and any enhancements.
-* Bad, because Requires proper planning to avoid tightly coupling Controller logic with Views.
+* Bad, because - Requires proper planning to avoid tightly coupling Controller logic with Views.
 - Can lead to overcomplication in simple use cases.
 
 ### Three-Tier Architecture
@@ -56,8 +56,8 @@ Presentation Tier: The user interface (frontend).
 Logic Tier: Business logic and data processing.
 Data Tier: Database and data storage.
 
-* Good, because Strong focus on scalability and reliability.
+* Good, because - Strong focus on scalability and reliability.
 - Clear separation between user-facing and backend logic.
-* Bad, because Less flexible for interactive and dynamic UIs.
+* Bad, because - Less flexible for interactive and dynamic UIs.
 - The rigid tier structure can make cross-layer communication inefficient.
 - Not as optimized for real-time data updates as MVC.
