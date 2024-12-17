@@ -10,6 +10,12 @@ Technical Story: The chosen architecture needs to ensure separation of concerns,
 
 We need a system architecture that enables a clear separation of responsibilities, supports scalability, and simplifies collaboration between development teams. It should also cater to multi-channel access (web, phone, and in-branch) while allowing easy updates and extensions to the system.
 
+## Decision Drivers
+
+* Scalability: The need for the system to handle a growing number of users and data across multiple platforms.
+- Real-time Data Updates: Required for dynamic and interactive interfaces.
+- Team Collaboration: A structure that supports modular development and independent work by the team.
+
 ## Considered Options
 
 * Model-View-Controller (MVC)
@@ -61,3 +67,8 @@ Data Tier: Database and data storage.
 * Bad, because - Less flexible for interactive and dynamic UIs.
 - The rigid tier structure can make cross-layer communication inefficient.
 - Not as optimized for real-time data updates as MVC.
+
+## Links
+
+* MVC Design Pattern Overview. (n.d.). Retrieved from https://www.mvc.com
+- Three-Tier Architecture. (n.d.). System Design Handbook. Retrieved from https://www.systemdesignhandbook.com
